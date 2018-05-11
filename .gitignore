@@ -1,0 +1,6 @@
+*.jpg
+*.png
+*.raw
+*.weights
+/node_modules
+*.env

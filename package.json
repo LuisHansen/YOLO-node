@@ -1,0 +1,33 @@
+{
+  "name": "bot-telegram",
+  "version": "0.1.0",
+  "description": "Telegram bot for anonymous message forwarding. LH",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisHansen/bot-telegram.git"
+  },
+  "keywords": [
+    "bot",
+    "telegram",
+    "forward",
+    "anonymous"
+  ],
+  "author": "LuisHansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisHansen/bot-telegram/issues"
+  },
+  "homepage": "https://github.com/LuisHansen/bot-telegram#readme",
+  "dependencies": {
+    "@moovel/yolo": "^0.2.0",
+    "express": "^4.16.2",
+    "hoek": "^4.2.1",
+    "node-telegram-bot-api": "^0.27.1",
+    "socket.io": "^2.0.4"
+  }
+}
