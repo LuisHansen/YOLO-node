@@ -1,7 +1,7 @@
 {
   "name": "bot-telegram",
   "version": "0.1.0",
-  "description": "Telegram bot for anonymous message forwarding. LH",
+  "description": "Telegram bot that analyzes photos with computer vision using YOLO. LuisHansen",
   "main": "index.js",
   "scripts": {
     "test": "test",
@@ -14,8 +14,9 @@
   "keywords": [
     "bot",
     "telegram",
-    "forward",
-    "anonymous"
+    "YOLO",
+    "computer",
+    "vision"
   ],
   "author": "LuisHansen",
   "license": "ISC",
@@ -25,9 +26,9 @@
   "homepage": "https://github.com/LuisHansen/bot-telegram#readme",
   "dependencies": {
     "@moovel/yolo": "^0.2.0",
+    "dotenv": "^5.0.1",
     "express": "^4.16.2",
-    "hoek": "^4.2.1",
-    "node-telegram-bot-api": "^0.27.1",
-    "socket.io": "^2.0.4"
+    "jpeg-js": "^0.3.4",
+    "node-telegram-bot-api": "^0.27.1"
   }
 }
